@@ -39,7 +39,6 @@ schema:
       reply: "str"
   ha_url_with_port: "str"
   route: "str"
-  port: port
 ports:
   20255/tcp: 20255
 ports_description:
