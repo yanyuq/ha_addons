@@ -28,7 +28,7 @@ fs.readFile(opt, (err, data) => {
     const dataJSON = JSON.parse(data);
     const certs = dataJSON.certificates;
     // console.log('certs',certs);
-    const port = dataJSON.port;
+    const port = 20255;
     const intents = dataJSON.intents;
     const route = dataJSON.route;
     const ha_url = dataJSON.ha_url_with_port;

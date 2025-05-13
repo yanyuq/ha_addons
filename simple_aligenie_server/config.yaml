@@ -29,7 +29,6 @@ options:
       reply: '天猫精灵回复的文案'
   ha_url_with_port: 'http(s)://[外网可访问的homeassitant地址]:[端口]'
   route: '天猫精灵服务器发送请求的路由'
-  port: 20255
 schema:
   certificates:
     - certificate_file_name: "str"
@@ -44,4 +43,4 @@ schema:
 ports:
   20255/tcp: 20255
 ports_description:
-  20255/tcp: "尽量不要改。如需修改，和配置中的 port 保持一致。"
+  20255/tcp: "天猫精灵技能平台「后端服务」中「服务器URL」地址所用端口，如果设置了端口转发，请填写转发后暴露在外的端口。"
