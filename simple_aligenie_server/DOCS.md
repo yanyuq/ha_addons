@@ -5,13 +5,15 @@
 ## 使用前准备
 1. 家里有天猫精灵并能正常使用。
 2. HA 通过 DDNS 能在外网访问。
-3. 前往天猫精灵技能平台[https://iap.aligenie.com/](https://iap.aligenie.com/) ，注册成为开发者，最好和天猫精灵绑定的账号一致。
+3. 前往天猫精灵技能平台 [https://iap.aligenie.com](https://iap.aligenie.com/) ，注册成为开发者，最好和天猫精灵绑定的账号一致。
 4. 开发语音技能，获取到技能认证文件（一串字母+数字.txt，内容是另一串字母+数字）。
 
 ## 安装
 `Home Assistant` -> `设置` -> `加载项` -> `加载项商店` -> `右上角三个点` -> `仓库` -> `添加`
 输入框中填入 
-https://github.com/bigxixi/bigxixi_ha_addons/   
+https://github.com/bigxixi/bigxixi_ha_addons  
+或者   
+https://gitee.com/bigxixi2022/bigxixi_ha_addons  
 添完成后刷新 HA 页面，在加载项商店页面中找到 Simple Aligenie Skill Server ，点进去，点击`安装`，安装完成后点击`启动`。
 
 ## 加载项配置
