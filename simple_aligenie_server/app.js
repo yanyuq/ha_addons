@@ -61,7 +61,7 @@ fs.readFile(opt, (err, data) => {
               .then(ha_res => {
                   // console.log(ha_res)
                   // 向天猫精灵服务器发送回复文案
-                  res2TM["returnValue"]["reply"] = reply;
+                  res2TM["returnValue"]["reply"] = reply ? reply : '命令执行成功';
                   res.send(res2TM);                  
                 })
               .catch(error => {

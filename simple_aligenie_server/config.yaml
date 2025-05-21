@@ -2,7 +2,7 @@ name: "Simple Aligenie Skill Server"
 description: "一个简易天猫精灵技能服务后端，基于NodeJS"
 version: "1.0.0"
 slug: "simple_aligenie_skill_server"
-url: https://github.com/bigxixi/bigxixi_ha_addons/tree/main/simple_aligenie_server
+url: https://gitee.com/bigxixi2022/bigxixi_ha_addons/tree/main/simple_aligenie_server
 init: false
 arch:
   - aarch64
