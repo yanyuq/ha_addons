@@ -1,6 +1,4 @@
-# 天猫精灵 Simple Server 使用说明
-
-一个简易天猫精灵技能服务后端，基于NodeJS，能响应天猫精灵技能的单一意图并向 HA 发送 webhook 请求，暂不支持连续对话、参数追问等复杂操作。
+![](https://gitee.com/bigxixi2022/readmes/raw/master/SimpleAligenieServer/000.jpeg)
 
 ## 👉 使用前准备
 1. 家里有天猫精灵并能正常使用。

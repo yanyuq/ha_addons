@@ -5,7 +5,7 @@
 
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
 
- 👉 详细使用步骤看[文档](https://github.com/bigxixi/bigxixi_ha_addons/blob/main/simple_aligenie_server/DOCS.md) 👈
+ 👉 详细使用步骤看[文档](https://github.com/bigxixi/bigxixi_ha_addons/blob/main/simple_aligenie_server/DOCS.md) 👈  
  👇 简明使用步骤看下面 👇 
 
 ## 使用前准备
