@@ -21,10 +21,7 @@
 ```
 https://github.com/yanyuq/ha_addons  
 ```
-或者   
-```
-https://gitee.com/bigxixi2022/bigxixi_ha_addons  
-```
+
 添完成后刷新 HA 页面，在加载项商店页面中找到 Simple Aligenie Skill Server ，点进去，点击`安装`，安装完成后点击`启动`。
 
 ## 加载项配置

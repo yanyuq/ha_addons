@@ -49,6 +49,12 @@ for cert in certs:
 def serve_static(filename):
     return send_from_directory(app.static_folder, filename)
 
+
+@app.route('/aligenie/<path:filename>')
+def serve_aligenie_cert(filename):
+    return send_from_directory(os.path.join(app.static_folder, 'aligenie'), filename)
+
+
 # 天猫精灵 POST 请求入口
 @app.route(f'/{route}', methods=['POST'])
 def handle_tm_post():
