@@ -2,4 +2,4 @@
 
 ## 1.0.0
 
-- 第一版（也可能是最后一版）
+- 移植自：https://gitee.com/bigxixi2022/bigxixi_ha_addons 、 https://github.com/bigxixi/bigxixi_ha_addons

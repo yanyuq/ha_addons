@@ -1,4 +1,8 @@
+# 天猫精灵 Simple Server 使用说明
+
+一个简易天猫精灵技能服务后端，基于NodeJS，能响应天猫精灵技能的单一意图并向 HA 发送 webhook 请求，暂不支持连续对话、参数追问等复杂操作。
 ![](https://gitee.com/bigxixi2022/readmes/raw/master/SimpleAligenieServer/000.jpeg)
+移植自：https://gitee.com/bigxixi2022/bigxixi_ha_addons 、 https://github.com/bigxixi/bigxixi_ha_addons
 
 ## 👉 使用前准备
 1. 家里有天猫精灵并能正常使用。
@@ -26,12 +30,9 @@
 `Home Assistant` -> `设置` -> `加载项` -> `加载项商店` -> `右上角三个点` -> `仓库` -> `添加`
 输入框中填入 
 ```
-https://github.com/bigxixi/bigxixi_ha_addons  
+https://github.com/yanyuq/ha_addons  
 ```
-或者   
-```
-https://gitee.com/bigxixi2022/bigxixi_ha_addons  
-```
+
 添完成后刷新 HA 页面，在加载项商店页面中找到 Simple Aligenie Skill Server ，点进去，点击`安装`，安装完成后点击`启动`。
 
 #### 加载项配置
